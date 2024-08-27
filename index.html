@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/bbfc4be646.js"crossorigin="anonymous"></script>
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- daisyUi -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- style -->
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',            
+            green: 'rgba(171, 239, 95, 1)',            
+            tch: 'rgba(73, 73, 73, 1)',
+            tcp: 'rgba(115, 115, 115, 1)',
+            
+          }
+        }
+      }
+    }
+  </script>
+  <!-- manrope font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <style> 
+    .manrope{
+      font-family: "Manrope", sans-serif;
+    }
+    .silver{
+      background-image: url(assets/bg.jpg);
+    }
+  </style>
+  <title>Rinterio</title>
+</head>
+<body class="manrope">
+  <header class="w-11/12 mx-auto">
+    <!-- navbar -->
+    <div class="navbar w-11/12 mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div >
+        <h1 class="flex text-2xl font-bold"> <i class=" p-1 mx-1 fa-solid fa-arrow-right bg-green text-black rounded-full -rotate-45"></i>Rinterio</h1>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="md:navbar-end space-x-1 invisible md:visible">
+       
+      <div class=" sm:max-w-screen-sm btn bg-green rounded-3xl"><a class=" text-xl rounded-xl">Book Consult<i class="ml-1 p-1 fa-solid fa-arrow-right bg-black text-white rounded-full -rotate-45"></i></a></div>  
+      </div>
+    </div>
+    <!-- banner section -->
+    <div class="space-y-6">
+      <div class="w-11/12 mx-auto">
+       <img class="mx-auto " src="assets/banner.png" alt="">
+      </div>
+      <div class="w-5/6 mx-auto text-center">
+        <h1 class="text-2xl md:text-5xl  font-black space-y-4">A barn house of this design has a striking appearance</h1>
+        <p class="w-5/6 mx-auto text-center space-y-4 gap-4 my-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <div class="text-center">
+          <button class="btn bg-lime-200 rounded-3xl">View Details <i class=" p-1 mx-1 fa-solid fa-arrow-right bg-green text-white rounded-full -rotate-45"></i></button>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+</body>
+</html>
